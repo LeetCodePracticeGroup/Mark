@@ -3,7 +3,6 @@
 
 int reverse(int x){
 	int reverse = 0, counter = 0;
-	if(x > INT_MAX || x < INT_MIN) return 0;
 	int temp = abs(x);
 	while(temp >= 1){
 		counter++;
